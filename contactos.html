@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario con Google Maps</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="nosotros.html">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+</head>
+<body>
+    <h1 id="titulo">fifty coffees</h1>
+    <div id="contenedor">
+        <div>INICIO</div>
+        <div><link rel="stylesheet" href="nosotros.html">Nosotros</div>
+        <div>BLOG</div>
+        <div>GALERIA</div>
+        <div>VIDEOS</div>
+        <div>CONTACTOS</div>
+    </div>
+    <div class="container">
+        <div class="form-container">
+            <h2>Formulario de Contacto</h2>
+            <form action="#" method="post">
+                <div class="form-group">
+                    <label for="nombre">Nombre y Apellido:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </div>
+                <div class="form-group">
+                    <label for="celular">Celular:</label>
+                    <input type="tel" id="celular" name="celular" required>
+                </div>
+                <div class="form-group">
+                    <label for="correo">Correo Electrónico:</label>
+                    <input type="email" id="correo" name="correo" required>
+                </div>
+                <div class="form-group">
+                    <label for="ruc">RUC-Empresa:</label>
+                    <input type="text" id="ruc" name="ruc" required>
+                </div>
+                <div class="form-group">
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+                </div>
+                <div class="form-group">
+                    <button type="submit">Enviar</button>
+                </div>
+            </form>
+        </div>
+        <div class="map-container">
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.835434509374!2d144.95373531531624!3d-37.81627917975121!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d43f01a2f3b%3A0xe46e65b8ad084a9b!2sMelbourne%20VIC%2C%20Australia!5e0!3m2!1ses!2ses!4v1634044122843!5m2!1ses!2ses" 
+                allowfullscreen="" 
+                loading="lazy">
+            </iframe>
+        </div>
+    </div>
+    <a href="https://twitter.com/" class="twitter" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+        <a href="https://facebook.com/" class="facebook" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://tiktok.com/" class="tiktok" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+        <a href="https://instagram.com/" class="instagram" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+</body>
+</html>
